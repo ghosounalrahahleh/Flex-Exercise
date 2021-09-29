@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+body,
+#first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 40%;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container .box {
+  padding: 20px;
+  min-height: 250px;
+  background-color: rgb(123, 218, 255);
+  width: 25%;
+  margin: 5px 0;
+}
+.container #first {
+  width: 100%;
+  height: 100px ;
+  background-color: rgb(223, 11, 223);
+  color: white;
+}

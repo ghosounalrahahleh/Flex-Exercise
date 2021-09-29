@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+body,.container,
+.container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-around;
+    background-color: #03A1FF;
+    width: 50%;
+    min-height:350px;
+}
+.container div {
+    background-color: #EE5FA7;
+    color: white;
+    margin: 1%;
+     width: 31%;
+     height: 100px;
+     font-size: 2rem;
+    
+}
+.container .fourth{
+    width: 64%;
+}
